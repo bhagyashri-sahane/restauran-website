@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reserve table</title>
+        <style>
+            form,h1{
+                background-color: bisque;
+                font-size: larger;
+                
+                margin-right: 800px;
+                margin-left: 800px;
+                width: 400px;
+            }
+            body{
+                background-image: url(../RestaurantWebsite/images/RestoImg.jpg);
+                
+            }
+        </style>
+    </head>
+    <body>
+        <form action="Index.html" >
+            <label for="name">Please enter your name</label>
+            <input id="name" type="text" value="enter your name">
+            <br>
+            <label for="number">Please enter your mobile number</label>
+            <input id="number" type="number" value="enter your mobile number" required>
+            <br>
+            <label for="table">Select a table</label>
+            <select id="table" name="Table">
+                <option value="table1">Table1</option>
+                <option value="table2">Table2</option>
+                <option value="table3">Table3</option>
+                <option value="table4">Table4</option>
+                <option value="table5">Table5</option>
+                <option value="table6">Table6</option>
+                <option value="table7">Table7</option>
+                <option value="table8">Table8</option>
+                <option value="table9">Table9</option>
+                <option value="table10">Table10</option>
+                <option value="table11">Table11</option>
+            </select>
+            <br>
+            <label id="date" name="Date">Select a date</label>
+            <input id="date" type="date" value="enter date">
+            <br>
+            <label id="time" name="Time">Select a time</label>
+            <input id="time" value="Time" type="time">
+            <br>
+            <form action="Index.html">
+                <lable id="confirm" name="Confirm">Confirm my table</lable>
+                <input id="confirm" type="button" value="Confirm">
+            </form>
+        </form>
+        
+        <h1>THANK YOU!</h1>
+    </body>
+</html>
